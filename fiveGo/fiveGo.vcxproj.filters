@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\QtWebApp">
+      <UniqueIdentifier>{80346d61-d059-419b-b941-7042a4b6e0a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QtWebApp\httpserver">
+      <UniqueIdentifier>{3bfecc8c-cecc-4f2f-bc4c-6a2a1289d9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QtWebApp\logging">
+      <UniqueIdentifier>{f6df933e-548c-4247-bc90-a1e76c995e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QtWebApp\templateengine">
+      <UniqueIdentifier>{424bf7b3-3fa8-4424-b9b2-49630a361d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QtWebApp">
+      <UniqueIdentifier>{f2f5d995-d29a-45c5-a0b5-866ac12bd9be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QtWebApp\httpserver">
+      <UniqueIdentifier>{ed8a0511-0f97-4ca2-b953-7fcbd06a9216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QtWebApp\logging">
+      <UniqueIdentifier>{32bf0c37-7b94-4435-bad2-d264b4711aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QtWebApp\templateengine">
+      <UniqueIdentifier>{a9939c04-9195-4151-8ec6-afc822b4ea9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fiveGo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\requesthandler.cpp">
+      <Filter>Source Files\QtWebApp</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\templateengine\template.cpp">
+      <Filter>Source Files\QtWebApp\templateengine</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\templateengine\templatecache.cpp">
+      <Filter>Source Files\QtWebApp\templateengine</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\templateengine\templateloader.cpp">
+      <Filter>Source Files\QtWebApp\templateengine</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\logging\dualfilelogger.cpp">
+      <Filter>Source Files\QtWebApp\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\logging\filelogger.cpp">
+      <Filter>Source Files\QtWebApp\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\logging\logger.cpp">
+      <Filter>Source Files\QtWebApp\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\logging\logmessage.cpp">
+      <Filter>Source Files\QtWebApp\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\httpserver\httpconnectionhandler.cpp">
+      <Filter>Source Files\QtWebApp\httpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\httpserver\httpconnectionhandlerpool.cpp">
+      <Filter>Source Files\QtWebApp\httpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\httpserver\httpcookie.cpp">
+      <Filter>Source Files\QtWebApp\httpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\httpserver\httpglobal.cpp">
+      <Filter>Source Files\QtWebApp\httpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\httpserver\httplistener.cpp">
+      <Filter>Source Files\QtWebApp\httpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\httpserver\httprequest.cpp">
+      <Filter>Source Files\QtWebApp\httpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\httpserver\httprequesthandler.cpp">
+      <Filter>Source Files\QtWebApp\httpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\httpserver\httpresponse.cpp">
+      <Filter>Source Files\QtWebApp\httpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\httpserver\httpsession.cpp">
+      <Filter>Source Files\QtWebApp\httpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\httpserver\httpsessionstore.cpp">
+      <Filter>Source Files\QtWebApp\httpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="QtWebApp\httpserver\staticfilecontroller.cpp">
+      <Filter>Source Files\QtWebApp\httpserver</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="fiveGo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="BackgroundItem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\httpserver\httpconnectionhandler.h">
+      <Filter>Header Files\QtWebApp\httpserver</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\httpserver\httpconnectionhandlerpool.h">
+      <Filter>Header Files\QtWebApp\httpserver</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\httpserver\httplistener.h">
+      <Filter>Header Files\QtWebApp\httpserver</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\httpserver\httprequesthandler.h">
+      <Filter>Header Files\QtWebApp\httpserver</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\httpserver\httpsessionstore.h">
+      <Filter>Header Files\QtWebApp\httpserver</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\httpserver\staticfilecontroller.h">
+      <Filter>Header Files\QtWebApp\httpserver</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\logging\dualfilelogger.h">
+      <Filter>Header Files\QtWebApp\logging</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\logging\filelogger.h">
+      <Filter>Header Files\QtWebApp\logging</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\logging\logger.h">
+      <Filter>Header Files\QtWebApp\logging</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\templateengine\templatecache.h">
+      <Filter>Header Files\QtWebApp\templateengine</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\templateengine\templateloader.h">
+      <Filter>Header Files\QtWebApp\templateengine</Filter>
+    </QtMoc>
+    <QtMoc Include="QtWebApp\requesthandler.h">
+      <Filter>Header Files\QtWebApp</Filter>
+    </QtMoc>
+    <QtMoc Include="HttpEngine.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="fiveGo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="fiveGo.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QtWebApp\httpserver\httpcookie.h">
+      <Filter>Header Files\QtWebApp\httpserver</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWebApp\httpserver\httpglobal.h">
+      <Filter>Header Files\QtWebApp\httpserver</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWebApp\httpserver\httprequest.h">
+      <Filter>Header Files\QtWebApp\httpserver</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWebApp\httpserver\httpresponse.h">
+      <Filter>Header Files\QtWebApp\httpserver</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWebApp\httpserver\httpsession.h">
+      <Filter>Header Files\QtWebApp\httpserver</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWebApp\logging\logglobal.h">
+      <Filter>Header Files\QtWebApp\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWebApp\logging\logmessage.h">
+      <Filter>Header Files\QtWebApp\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWebApp\templateengine\template.h">
+      <Filter>Header Files\QtWebApp\templateengine</Filter>
+    </ClInclude>
+    <ClInclude Include="QtWebApp\templateengine\templateglobal.h">
+      <Filter>Header Files\QtWebApp\templateengine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
